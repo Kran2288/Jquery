@@ -28,3 +28,7 @@ li {
     color: rebeccapurple;
     font-size: 20px;
 }
+
+.hide {
+    padding-top: 20px;
+}

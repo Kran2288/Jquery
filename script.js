@@ -27,4 +27,20 @@ $('li').filter(function (index) {
 $(".nani").toggleClass("nani1 nani2", false);
 
 
-$(".attr").attr("class", "attrgo")
+$(".attr").attr("class", "attrgo");
+
+$("input[type='checkbox']").prop({
+    disabled: true
+});
+
+$('#triger').bind('click', function () {
+    alert('Шла Саша по шоссе');
+});
+
+$('#triger').trigger('click');
+
+
+$("#im1").hide(4000);
+$("#im2").hide(10000);
+$("#im1").show("slow");
+$("#im2").show("slow");
