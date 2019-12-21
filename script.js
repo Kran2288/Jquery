@@ -36,8 +36,8 @@ $("input[type='checkbox']").prop({
 $('#triger').bind('click', function () {
     alert('Шла Саша по шоссе');
 });
-
 $('#triger').trigger('click');
+
 
 
 $("#im1").hide(4000);
@@ -50,3 +50,10 @@ $(".list").wrap("<div class='hoy'></div>");
 $(".list").prepend("<li class='item'> Тест </li>");
 
 $(".list").append("<li class='item'>Тест</li>");
+
+
+$(".htm").html("<p>Новый царь</p>");
+
+$('img').error(function () {
+    alert('Проблемы с загрузкой изображения');
+});
