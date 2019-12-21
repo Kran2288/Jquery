@@ -44,3 +44,9 @@ $("#im1").hide(4000);
 $("#im2").hide(10000);
 $("#im1").show("slow");
 $("#im2").show("slow");
+
+$(".list").wrap("<div class='hoy'></div>");
+
+$(".list").prepend("<li class='item'> Тест </li>");
+
+$(".list").append("<li class='item'>Тест</li>");
