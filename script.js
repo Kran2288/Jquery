@@ -23,3 +23,8 @@ $("div").find("span");
 $('li').filter(function (index) {
     return $('strong', this).length == 1;
 }).css('background-color', 'red');
+
+$(".nani").toggleClass("nani1 nani2", false);
+
+
+$(".attr").attr("class", "attrgo")

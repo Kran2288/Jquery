@@ -17,3 +17,14 @@ ul {
 li {
     padding: 2px
 }
+
+
+.attrgo {
+    display: block;
+    width: 100px;
+}
+
+.attrgo:hover {
+    color: rebeccapurple;
+    font-size: 20px;
+}
